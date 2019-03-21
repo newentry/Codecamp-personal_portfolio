@@ -76,6 +76,10 @@ html, body {
 @media only screen and (max-width: 600px) {
   #navbar ul li {
     display:block;
+    font-size:1.2em;
+  }
+  #navbar ul {
+  	padding: 5px 0 5px 0;
   }
   .section-style {
     width:80%;
