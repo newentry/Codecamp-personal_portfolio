@@ -1,4 +1,4 @@
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+profile-link<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,34 +12,79 @@
   </head>
   
   <body>
+
     <navbar id="navbar">
       <ul>
         <li><a href="#about-me">About me</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Contact me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact_me">Contact me</a></li>
       </ul>
     </navbar>
-    <header id=welcome-section>
+
+    <header id="welcome-section">
       <h1>Andrei Budai</h1>
       <p>Welcome to my personal portfolio!</p>
     </header>
+
     <section id="about-me">
       <div class="section-style">
         <h2>About me...</h2>
         <p>My name is Andrei Budai and I live in Uckfield, East Sussex.</p>
-        <p>Always been around computers, also as an IT Technician but somehow felt like there's more to my attraction towards IT world.</p>
-        <p>At heart a Geodetic Engineer but at the moment my world revolves around web developing.</p>
+        <p>Always been around computers, also as an IT Technician but somehow felt like there's more to my attraction towards the IT world.</p>
+        <p>At heart a Geodetic Engineer but for some time now my focus revolved around web developing.</p>
       </div>
     </section>
     
     <section id="projects">
       <div class="section-style">
         <h1>A few projects:</h1>
-        <div class="project-content">
-          <a href="https://newentry.github.io/Codecamp-bath-shop/Bath-shop.html">
+        <div class="project-tile">
+
+          <a href="https://newentry.github.io/Codecamp-Tribute-page/tribute_page.html" target="_blank">
+            <img class="project-pic" src="images/Tribute_page.png" width=200px height="150px" alt="project">
+            <div>
+              Tribute Page
+            </div>
+          </a>
+
+          <a href="https://newentry.github.io/Codecamp-customer-feedback/customer_feedback.html" target="_blank">
+            <img class="project-pic" src="images/customer_feedback.png" width=200px height="150px" alt="project">
+            <div>
+              Survey Form
+            </div>
+          </a>
+
+          <a href="https://newentry.github.io/Codecamp-bath-shop/Bath-shop.html" target="_blank">
+            <img class="project-pic" src="images/bath_shop.jpg" width=200px height="150px" alt="project">
+            <div>
+              Product Landing Page
+            </div>
+          </a>
+
+          <a href="https://newentry.github.io/Codecamp-technical-documentation/TechnicalDocumentationPage.html" target="_blank">
+            <img class="project-pic" src="images/technical_documentation.png" width=200px height="150px" alt="project">
+            <div>
+              Technical Documentation Page
+            </div>
+          </a>
+
+          <a href="https://github.com/newentry" target="_blank" id="profile-link">
+            <img class="project-pic" src="images/under_construction.jpg" width=200px height="150px" alt="project">
+            <div>
+              Being worked on ...
+            </div>
+          </a>
         </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="contact_me">
+        <h3>If you'd like to get in touch, email me at <a href="mailto:undeiiandrei@gmail.com">this address</a>.
+        </h3>
       </div>
     </section>
     
   </body>
+
 </html>

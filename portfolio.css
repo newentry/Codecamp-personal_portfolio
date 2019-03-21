@@ -2,9 +2,14 @@ html, body {
   font-family: 'Crimson Text', sans-serif, serif;
   margin:0;
 }
+#navbar {
+  margin-top: 0px;
+  z-index: 1;
+}
 #navbar ul {
-  position: fixed;
   margin-top:0;
+  top:0;
+  position: fixed;
   background-color: #e3e6ea;
   width: 100%;
   text-align: center;
@@ -23,17 +28,56 @@ html, body {
   width: 100%;
   padding: 100px 0 100px 0;
   text-align: center;
+  height: 97px;
 }
 #welcome-section p {
   font-size: 1.5em;
 }
 .section-style {
-  width: 60%;
+  width: 40%;
   font-size: 1.2em;
   text-align: center;
   padding: 20px 0;
   margin:auto;
 }
 #about-me {
-   background-color: #e3e6ea;
+  background-color: #e3e6ea;
+}
+.project-tile {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project-tile a {
+  border: 1px solid #545556;
+  margin: 20px 30px;
+  text-decoration: none;
+  color: black;
+}
+.project-tile a div {
+  border-top: 1px solid;
+}
+.project-pic {
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+
+}  
+
+
+#contact_me h3{
+  padding: 30px;
+  text-align: center;
+  background-color: #e3e6ea;
+  
+}
+@media only screen and (max-width: 600px) {
+  #navbar ul li {
+    display:block;
+  }
+  .section-style {
+    width:80%;
+  }
 }
